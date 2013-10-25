@@ -1,29 +1,22 @@
 source 'https://rubygems.org'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ruby '2.0.0'
+
 gem 'rails', '4.0.0'
 gem 'iron_mq'
 gem 'figaro'
-
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'faraday'
 gem 'jbuilder', '~> 1.2'
 
+gem 'inherited_resources'
+
 group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
+group :development do
+  #gem 'pry-debugger'
+end
 
 gem 'mongoid', github: 'mongoid/mongoid'
 gem 'devise'

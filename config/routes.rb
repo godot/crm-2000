@@ -4,5 +4,6 @@ CRM::Application.routes.draw do
       resources :users, only: :create
       resource :session, only: [:create, :destroy]
     end
+    get '/status', to: 'info#index'
   end
 end

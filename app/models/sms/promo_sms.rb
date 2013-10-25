@@ -1,0 +1,2 @@
+module SMS::PromoSMS
+end
