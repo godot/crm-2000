@@ -61,7 +61,7 @@ application.yml:
 
 #### available resources:
 
-##### /api/members
+##### /api/members/:id
 
     attributes:
         id
