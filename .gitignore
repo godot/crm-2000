@@ -20,3 +20,6 @@
 
 # Ignore the Mongoid configuration file
 /config/mongoid.yml
+
+# Ignore RubyMine workspace files
+/.idea
