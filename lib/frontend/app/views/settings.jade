@@ -26,6 +26,7 @@
         label(for='firstname') First Name
         input(type='text', name='firstname', placeholder='Janko')
 
+      .form-group
         label(for='lastname') Last Name
         input(type='text', name='lastname', placeholder='Walski')
 
@@ -33,6 +34,7 @@
         label(for='phone') Phone number
         input(type='text', name='phone', placeholder='555 125 283')
 
+      .form-group
         label(for='email') E-mail
         input(type='email', name='email', placeholder='janko.walski@mail.com')
 
@@ -40,7 +42,9 @@
         label(for='password') Password
         input(type='password', name='password', placeholder='**************')
 
+      .form-group
         label(for='confirm_password') Password
         input(type='password', name='confirm_password', placeholder='**************')
 
-      input(type='submit') Save changes
+      .form-group
+        input(type='submit', value='Save changes')

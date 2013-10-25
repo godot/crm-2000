@@ -1,4 +1,4 @@
-class Api::V1::UsersController < ApplicationController
+class Api::UsersController < ApplicationController
   skip_before_action :authenticate!
 
   def create
@@ -11,6 +11,6 @@ class Api::V1::UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit :email, :password
+    params.require(:user).permit :phone, :email, :password
   end
 end

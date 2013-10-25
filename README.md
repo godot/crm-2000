@@ -59,6 +59,15 @@ application.yml:
 
 ### API
 
+#### available resources:
+
+##### members
+
+    attributes:
+        name: required
+        phone: uniq,
+        email
+
 #### esemeseseses
 
     request:
