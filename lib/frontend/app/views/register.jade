@@ -1,0 +1,8 @@
+div(ng-controller='RegisterController')
+  div
+    form(action='', ng-submit='registerUser()')
+      input(ng-model='phone', type='text')
+      input(ng-model='password', type='password')
+      input(ng-model='password_confirmation', type='password')
+      button(type='commit')
+        | Sign up
