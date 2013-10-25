@@ -66,6 +66,10 @@ GEM
       rest (>= 2.2.0)
     iron_mq (4.0.3)
       iron_core (>= 0.5.1)
+    iron_worker_ng (1.0.2)
+      bundler (>= 1.2.0)
+      iron_core (>= 1.0.0)
+      rubyzip (= 0.9.9)
     jbuilder (1.5.2)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -111,6 +115,7 @@ GEM
       rest-client (>= 0.3.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
+    rubyzip (0.9.9)
     sdoc (0.3.20)
       json (>= 1.1.3)
       rdoc (~> 3.10)
@@ -144,6 +149,7 @@ DEPENDENCIES
   figaro
   inherited_resources
   iron_mq
+  iron_worker_ng
   jbuilder (~> 1.2)
   mongoid!
   rails (= 4.0.0)

@@ -43,7 +43,7 @@ a, a:hover, a:focus {
       line-height: 59px;
       text-align: center;
       display: inline-block;
-      background: #f69679 url(../images/logo.png) 50% 50% no-repeat;
+      background: #19bb9b url(../images/logo.png) 50% 50% no-repeat;
     }
     margin-top: 0;
   }
@@ -215,7 +215,7 @@ a, a:hover, a:focus {
       width: 144px;
       height: 44px;
       @include border-radius(2px);
-      background-color: #f59579;
+      background-color: #19bb9b;
       display: inline-block;
       text-align: center;
       color: #fff;
@@ -225,4 +225,59 @@ a, a:hover, a:focus {
       padding: 0;
     }
   }
+}
+
+form.send {
+  textarea {
+    @extend .form-control;
+    min-height: 275px;
+    width: 100% !important;
+  }
+  > input[type='submit'] {
+    width: 144px;
+    height: 44px;
+    @include border-radius(2px);
+    background-color: #19bb9b;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    line-height: 44px;
+    font-size: 14px;
+    border: 0;
+    padding: 0;
+    float: right;
+    margin-top: 12px;
+  }
+}
+
+.alert {
+  height: 50px;
+  line-height: 50px;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: #3f3f3f;
+  padding: 0;
+  &:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 22px;
+    height: 20px;
+    background: url(../images/ok.png) 50% 50% no-repeat;
+    margin-right: 12px;
+  }
+  &.wrong {
+    &:before {
+      background: url(../images/wrong.png) 50% 50% no-repeat;
+    }
+  }
+}
+
+.chosen-container {
+  width: 100% !important;
+  margin-bottom: 12px;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  height: 25px !important;
 }

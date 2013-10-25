@@ -77,5 +77,5 @@ application.yml:
         json :
             application_token: ENV['APPLICATION_TOKEN']
             sms_notification:
-                to      : array <phone-number>
+                to      : phone numbers [comma separated]
                 message : message

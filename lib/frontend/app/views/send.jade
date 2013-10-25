@@ -1,0 +1,33 @@
+.left
+  h1.logo
+    a(href='#') dashboard
+  ul.menu
+    li.users
+      a(href='#') Users
+    li.notifications
+      a(href='#') Notifications
+    li.settings
+      a(href='#') Settings
+  a.logout Log out
+
+.content
+  .top-menu
+    li.active
+      a(href='#') Account info
+    li
+      a(href='#') Add user
+
+  .main-cont
+    h1 Send Message
+    p Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies
+
+    p.alert.wrong Message could not be sent.
+
+    select(chosen='', multiple, ng-model='recipiens')
+      option(value='AK') Alaska
+      option(value='AZ') Arizona
+
+    form.send
+
+      textarea
+      input(type='submit', value='Send it!')
