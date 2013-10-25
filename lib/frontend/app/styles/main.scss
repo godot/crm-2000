@@ -1,6 +1,3 @@
-$iconSpritePath: "../images/glyphicons-halflings.png";
-$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
-
 @import "sass-bootstrap-compass/sass/sass-bootstrap";
 
 /* Put your CSS here */
@@ -27,12 +24,11 @@ a, a:hover, a:focus {
 
 .left {
   display: inline-block;
-  position: absolute;
-  top:0;
-  left:0;
   background: #575757;
-  height: 100%;
-  width: 110px;
+  min-height: 600px;
+  @extend .col-xs-2;
+  @extend .col-md-1;
+  padding: 0;
   .logo {
     a {
       text-indent: -666em;
@@ -104,13 +100,15 @@ a, a:hover, a:focus {
       width: 100%;
       height: 40px;
       margin: 15px auto 5px;
-      background: url(../images/menu.png) 25px -230px no-repeat;
+      background: url(../images/menu.png) 50% -230px no-repeat;
     }
   }
 }
 
 .content {
-  margin-left: 110px;
+  @extend .col-xs-10;
+  @extend .col-md-11;
+  padding: 0;
   .top-menu {
     list-style: none;
     padding: 0;
@@ -148,7 +146,7 @@ a, a:hover, a:focus {
     }
   }
   .main-cont {
-    width: 80%;
+    width: 90%;
     background: #fff;
     border: 1px solid #ddd;
     padding: 65px 55px;

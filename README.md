@@ -43,6 +43,10 @@ Generating assets to /public
 bundle install
 cp application.yml.example application.yml
 
+## Heroku Deploy
+git remote add heroku git@heroku.com:crm-2000.git
+git push heroku master
+
 ### SMS GATEWAY SETUP
 
 application.yml:
@@ -59,8 +63,9 @@ application.yml:
 
     request:
         methods: POST
-        url    : /api/sms_notifications
-        json   :
+        url  : /api/sms_notifications
+        json :
             application_token: ENV['APPLICATION_TOKEN']
-            to               : list of receipients
-            message          : message
+            sms_notification:
+                to      : array <phone-number>
+                message : message
