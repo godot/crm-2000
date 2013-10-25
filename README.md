@@ -63,8 +63,9 @@ application.yml:
 
     request:
         methods: POST
-        url    : /api/sms_notifications
-        json   :
+        url  : /api/sms_notifications
+        json :
             application_token: ENV['APPLICATION_TOKEN']
-            to               : list of receipients
-            message          : message
+            sms_notification:
+                to      : array <phone-number>
+                message : message
