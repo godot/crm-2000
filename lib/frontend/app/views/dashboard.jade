@@ -12,7 +12,7 @@ div(ng-controller='DashboardController')
         a(href='#') Settings
     a.logout Log out
 
-  .content(ng-controller='MembersController')
+  .content(ng-controller='MembersController', ng-init='init()')
     .top-menu
       li.active
         a(href='#') Account info
