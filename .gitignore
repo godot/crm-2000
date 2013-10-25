@@ -23,3 +23,6 @@
 
 # Ignore RubyMine workspace files
 /.idea
+
+# custom rvm settings
+.ruby-version

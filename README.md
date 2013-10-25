@@ -43,3 +43,6 @@ Generating assets to /public
 bundle install
 cp application.yml.example application.yml
 
+## Heroku Deploy
+git remote add heroku git@heroku.com:crm-2000.git
+git push heroku master
