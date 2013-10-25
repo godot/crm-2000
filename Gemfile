@@ -2,8 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-gem 'delayed_job'
-gem 'delayed_job_ironmq'
+gem 'iron_mq'
 gem 'figaro'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
