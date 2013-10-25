@@ -1,5 +1,7 @@
 class Api::SmsNotificationsController < ApplicationController
   before_filter :authenticate_requester!
+  skip_before_filter :authenticate!
+  skip_before_action :verify_authenticity_token
 
   def create
     if message_delivered?
