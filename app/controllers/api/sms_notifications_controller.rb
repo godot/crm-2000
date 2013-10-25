@@ -23,6 +23,9 @@ class Api::SmsNotificationsController < ApplicationController
   end
 
   def send_message
+    if params[:sms_notification].is_a? String
+      params[:sms_notification] = JSON.parse(params[:sms_notification])
+    end
     SMS::default.send(params[:sms_notification][:message], params[:sms_notification][:to])
   end
 
