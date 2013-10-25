@@ -4,29 +4,58 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 @import "bootstrap-sass/lib/bootstrap";
 
 /* Put your CSS here */
-html, body {
-  margin: 20px;
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+  background: #ebebeb;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #919191;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
-}
+.left {
+  display: inline-block;
+  position: absolute;
+  top:0;
+  left:0;
+  background: #575757;
+  height: 100%;
+  width: 110px;
+  .logo {
+    text-indent: -666em;
+    height: 59px;
+    width: 100%;
+    line-height: 59px;
+    margin-top: 0;
+    text-align: center;
+    display: inline-block;
+    background: #f69679 url(../images/logo.png) 50% 50% no-repeat;
+  }
+  .menu {
+    display: inline-block;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .logout {
+    display: inline-block;
+    height: 97px;
+    background-color: #404040;
+    @include box-sizing(border-box);
+    &:before {
+      display: inline-block;
+      content: "";
+      background: ;
+      width: 34px;
+      height: 33px;
+    }
 
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+  }
 }
