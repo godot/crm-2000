@@ -25,7 +25,6 @@ Default configuration is created by a generator:
 
     rails generate mongoid:config
 
-
 ### Starting GruntJS
 
   Go to /lib/fronted/
@@ -39,3 +38,8 @@ Generating assets to /public
   Go to /lib/fronted/
 
   grunt build --force
+    
+### Start Application
+bundle install
+cp application.yml.example application.yml
+
