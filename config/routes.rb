@@ -6,5 +6,6 @@ CRM::Application.routes.draw do
 
     get '/status', to: 'info#index'
     resources :sms_notifications, only: [:create]
+    resources :members
   end
 end
