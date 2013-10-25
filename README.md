@@ -47,6 +47,13 @@ cp application.yml.example application.yml
 git remote add heroku git@heroku.com:crm-2000.git
 git push heroku master
 
+## Iron Worker Queue set-up
+
+To update worker script, upload modified file:
+
+  iron_worker upload lib/iron_worker/test.worker --max-concurrency 1
+
+
 ### SMS GATEWAY SETUP
 
 application.yml:
