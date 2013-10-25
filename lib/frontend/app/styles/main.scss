@@ -1,7 +1,7 @@
 $iconSpritePath: "../images/glyphicons-halflings.png";
 $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
-@import "bootstrap-sass/lib/bootstrap";
+@import "sass-bootstrap-compass/sass/sass-bootstrap";
 
 /* Put your CSS here */
 html {
@@ -47,6 +47,7 @@ a, a:hover, a:focus {
   }
   .menu {
     margin: 20px 0;
+    padding: 0;
     text-align: center;
     li {
       display: inline-block;
@@ -150,6 +151,47 @@ a, a:hover, a:focus {
     width: 80%;
     background: #fff;
     border: 1px solid #ddd;
+    padding: 65px 55px;
   }
 }
 
+.users-list {
+  @extend .table;
+  thead {
+    border: 1px solid #ccc;
+    @include border-radius(3px);
+    background-color: #b9b9b9;
+    color: #fff;
+    tr {
+      th {
+      color: #fff;
+        &:first-child {
+          width: 50%;
+        }
+        &:nth-child(2) {
+          width: 30%;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      margin: 10px 0;
+      th {
+        border: 1px solid #ccc;
+        &:first-child {
+          border-radius: 3px 0 3px 0;
+          border-right: 0;
+        }
+        &:nth-child(2) {
+          border-left: 0;
+          border-right: 0;
+        }
+        &:last-child {
+          border-left: 0;
+          border-radius: 0 3px 0 3px;
+        }
+      }
+    }
+  }
+}
