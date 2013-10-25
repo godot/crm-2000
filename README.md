@@ -24,3 +24,10 @@ and run a database process:
 Default configuration is created by a generator:
 
     rails generate mongoid:config
+    
+    
+### Start Application
+bundle install
+cp application.yml.example application.yml
+
+
