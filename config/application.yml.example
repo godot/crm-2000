@@ -12,3 +12,4 @@ IRON_PROJECT_ID: 526a3999f2d157000900004f
 PROMOSMS_LOGIN: email
 PROMOSMS_PASSWORD: password
 PROMOSMS_URL: https://panel.promosms.pl
+APPLICATION_TOKEN: secret_application_token

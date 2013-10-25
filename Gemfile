@@ -19,3 +19,5 @@ group :development do
 end
 
 gem 'mongoid', github: 'mongoid/mongoid'
+gem 'devise'
+gem "active_model_serializers"
