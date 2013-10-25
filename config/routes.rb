@@ -1,3 +1,7 @@
 CRM::Application.routes.draw do
-  root to: '/index.html'
+
+  namespace :api do
+    get '/status', to: 'info#index'
+  end
+
 end
