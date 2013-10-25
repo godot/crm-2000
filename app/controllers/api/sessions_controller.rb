@@ -1,8 +1,8 @@
-class Api::V1::SessionsController < ApplicationController
+class Api::SessionsController < ApplicationController
   skip_before_action :authenticate!, only: :create
 
   def create
-    user = User.find_for_database_authentication email: params[:user][:email]
+    user = User.find_for_database_authentication phone: params[:user][:phone]
 
     return invalid_login_attempt unless user
     return invalid_login_attempt unless user.valid_password?(params[:user][:password])
