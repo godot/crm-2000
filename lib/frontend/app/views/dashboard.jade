@@ -1,44 +1,46 @@
-.left
-  h1.logo
-    a(href='#') dashboard
-  ul.menu
-    li.users
-      a(href='#') Users
-    li.notifications
-      a(href='#') Notifications
-    li.settings
-      a(href='#/settings') Settings
-  a.logout Log out
 
-.content
-  .top-menu
-    li.active
-      a(href='#') Account info
-    li
-      a(href='#') Add user
+div(ng-controller='DashboardController')
+  .left
+    h1.logo
+      a(href='#') dashboard
+    ul.menu
+      li.users
+        a(href='#') Users
+      li.notifications
+        a(href='#') Notifications
+      li.settings
+        a(href='#') Settings
+    a.logout Log out
 
-  .main-cont
-    h1 List of all users
-    p Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies
+  .content(ng-controller='MembersController')
+    .top-menu
+      li.active
+        a(href='#') Account info
+      li
+        a(href='#') Add user
 
-    ul.users-list
-      li.header
-        .list-item-name Client name
-        .list-item-phone Phone number
-        .list-item-sent Sent
-      li
-        .list-item-name Kallie Roose
-        .list-item-phone 555 263 273
-        .list-item-sent 12
-      li
-        .list-item-name Patty Surprenant
-        .list-item-phone 555 263 273
-        .list-item-sent 12
-      li
-        .list-item-name Kallie Roose
-        .list-item-phone 555 263 273
-        .list-item-sent 12
-      li
-        .list-item-name Patty Surprenant
-        .list-item-phone 555 263 273
-        .list-item-sent 12
+    .main-cont
+      h1 List of all users
+      p Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies
+
+      ul.users-list
+        li.header
+          .list-item-name Client name
+          .list-item-phone Phone number
+          .list-item-sent Sent
+        li
+          .list-item-name Kallie Roose
+          .list-item-phone 555 263 273
+          .list-item-sent 12
+        li
+          .list-item-name Patty Surprenant
+          .list-item-phone 555 263 273
+          .list-item-sent 12
+        li
+          .list-item-name Kallie Roose
+          .list-item-phone 555 263 273
+          .list-item-sent 12
+        li
+          .list-item-name Patty Surprenant
+          .list-item-phone 555 263 273
+          .list-item-sent 12
