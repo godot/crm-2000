@@ -26,3 +26,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'mongoid', github: 'mongoid/mongoid'
+gem 'devise'
+gem "active_model_serializers"
