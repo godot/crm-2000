@@ -40,6 +40,8 @@ GEM
     bson (2.0.0.rc3)
     builder (3.1.4)
     erubis (2.7.0)
+    faraday (0.8.8)
+      multipart-post (~> 1.2.0)
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
@@ -62,6 +64,7 @@ GEM
       bson (~> 2.0.0.rc3)
       optionable (~> 0.1.1)
     multi_json (1.8.2)
+    multipart-post (1.2.0)
     net-http-persistent (2.9)
     optionable (0.1.1)
     origin (1.1.0)
@@ -115,6 +118,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faraday
   figaro
   iron_mq
   jbuilder (~> 1.2)
