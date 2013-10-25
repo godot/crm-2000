@@ -64,6 +64,7 @@ application.yml:
 ##### /api/members
 
     attributes:
+        id
         name: required
         phone: uniq,
         email
