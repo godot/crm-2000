@@ -40,20 +40,65 @@ body {
     background: #f69679 url(../images/logo.png) 50% 50% no-repeat;
   }
   .menu {
-    display: inline-block;
     margin: 20px 0;
     text-align: center;
+    li {
+      display: inline-block;
+      width: 100%;
+      margin: 30px 0;
+      a {
+        &:before {
+          display: inline-block;
+          content: "";
+          width: 100%;
+          height: 40px;
+          margin: 0 auto;
+          background: url(../images/menu.png) 50% 0 no-repeat;
+        }
+        color: #fff;
+        opacity: 0.6;
+      }
+      &.notifications {
+        a:before {
+          height: 42px;
+          background-position: 50% -155px;
+        }
+      }
+      &.settings {
+        a:before {
+          height: 45px;
+          background-position: 50% -68px;
+        }
+      }
+      &:hover,
+      &.active {
+        a {
+          opacity: 1;
+          text-decoration: none;
+        }
+      }
+    }
   }
   .logout {
     display: inline-block;
     height: 97px;
+    width: 100%;
+    text-align: center;
     background-color: #404040;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     @include box-sizing(border-box);
     &:before {
       display: inline-block;
       content: "";
-      width: 34px;
-      height: 33px;
+      width: 100%;
+      height: 40px;
+      margin: 15px auto 5px;
+      background: url(../images/menu.png) 25px -230px no-repeat;
     }
   }
 }
