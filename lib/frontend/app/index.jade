@@ -8,10 +8,12 @@ html
     meta(name='viewport', content='width=device-width')
     // build:css(.tmp) styles/main.css
     link(rel='stylesheet', href='styles/main.css')
+    link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/chosen/1.0/chosen.min.css')
     // endbuild
   body(ng-app='frontendApp')
     div(ui-view)
     // build:js scripts/plugins.js
+    script(src='bower_components/jquery/jquery.min.js')
     script(src='bower_components/angular/angular.min.js')
     script(src='bower_components/angular-ui/build/angular-ui.min.js')
     script(src='bower_components/angular-ui-router/release/angular-ui-router.min.js')
@@ -20,6 +22,8 @@ html
     script(src='bower_components/angular-resource/angular-resource.js')
     script(src='bower_components/angular-cookies/angular-cookies.js')
     script(src='bower_components/angular-sanitize/angular-sanitize.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/chosen/1.0/chosen.jquery.min.js')
+    script(src='bower_components/angular-chosen/angular-chosen.js')
     // endbuild
     // build:js({.tmp,app}) scripts/scripts.js
     script(src='scripts/app.js')
