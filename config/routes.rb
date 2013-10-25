@@ -5,5 +5,6 @@ CRM::Application.routes.draw do
       resource :session, only: [:create, :destroy]
     end
     get '/status', to: 'info#index'
+    resources :sms_notifications, only: [:create]
   end
 end

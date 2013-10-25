@@ -38,8 +38,29 @@ Generating assets to /public
   Go to /lib/fronted/
 
   grunt build --force
-    
+
 ### Start Application
 bundle install
 cp application.yml.example application.yml
 
+### SMS GATEWAY SETUP
+
+application.yml:
+
+    PROMOSMS_LOGIN: email
+    PROMOSMS_PASSWORD: password
+    PROMOSMS_URL: https://panel.promosms.pl
+
+    APPLICATION_TOKEN: token # allows sending smsemesssems using API
+
+### API
+
+#### esemeseseses
+
+    request:
+        methods: POST
+        url    : /api/sms_notifications
+        json   :
+            application_token: ENV['APPLICATION_TOKEN']
+            to               : list of receipients
+            message          : message

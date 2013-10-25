@@ -4,13 +4,15 @@ module SMS
       attr_reader :login, :password
 
       def send message, to
-        connection.get do |req|
+        response = connection.get do |req|
           req.url '/remote/http/send.php'
           req.params['login'] = login
           req.params['password'] = password
           req.params['msg'] = message
           req.params['to']  = to.join(',')
         end
+
+        response.body
       end
 
       private
