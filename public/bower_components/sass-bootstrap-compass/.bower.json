@@ -21,6 +21,5 @@
   },
   "_source": "git://github.com/alademann/sass-bootstrap.git",
   "_target": "~3.0.17",
-  "_originalSource": "sass-bootstrap-compass",
-  "_direct": true
+  "_originalSource": "sass-bootstrap-compass"
 }
