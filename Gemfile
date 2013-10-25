@@ -15,7 +15,7 @@ group :doc do
 end
 
 group :development do
-  gem 'pry-debugger'
+  #gem 'pry-debugger'
 end
 
 gem 'mongoid', github: 'mongoid/mongoid'
