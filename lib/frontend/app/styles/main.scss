@@ -15,6 +15,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+  font-size: 14px;
   > div {
     height: inherit;
   }
@@ -159,42 +160,37 @@ a, a:hover, a:focus {
 }
 
 .users-list {
-  @extend .table;
-  thead {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    height: 31px;
+    line-height: 29px;
     border: 1px solid #ccc;
+    margin-top: 5px;
     @include border-radius(3px);
-    background-color: #b9b9b9;
-    color: #fff;
-    tr {
-      th {
-      color: #fff;
-        &:first-child {
-          width: 50%;
-        }
-        &:nth-child(2) {
-          width: 30%;
-        }
+    div {
+      display: inline-block;
+      padding: 0 20px;
+      @include box-sizing(border-box);
+      &.list-item-name {
+        width: 60%;
+      }
+      &.list-item-phone {
+        width: 30%;
+      }
+      &.list-item-sent {
+        width: 8%;
+        text-align: center;
       }
     }
-  }
-  tbody {
-    tr {
-      margin: 10px 0;
-      th {
-        border: 1px solid #ccc;
-        &:first-child {
-          border-radius: 3px 0 3px 0;
-          border-right: 0;
-        }
-        &:nth-child(2) {
-          border-left: 0;
-          border-right: 0;
-        }
-        &:last-child {
-          border-left: 0;
-          border-radius: 0 3px 0 3px;
-        }
-      }
+    &.header {
+      height: 41px;
+      line-height: 39px;
+      border: 1px solid #ccc;
+      @include border-radius(3px);
+      background-color: #b9b9b9;
+      color: #fff;
     }
   }
 }

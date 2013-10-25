@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a18279a-7b41-4654-94fb-265224fc52a3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/frontend/app/views/personal_info.jade" afterPath="$PROJECT_DIR$/lib/frontend/app/views/settings.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/frontend/app/scripts/app.js" afterPath="$PROJECT_DIR$/lib/frontend/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/frontend/app/views/dashboard.jade" afterPath="$PROJECT_DIR$/lib/frontend/app/views/dashboard.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/frontend/app/styles/main.scss" afterPath="$PROJECT_DIR$/lib/frontend/app/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crm-2000.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382698661698" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382706923024" ignored="false" />
     <file path="/index.jade" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382697678515" ignored="false" />
     <file path="/app.js" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382705215301" ignored="false" />
     <file path="/home.jade" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382694876387" ignored="false" />
     <file path="/README.md" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382696332635" ignored="false" />
     <file path="/main.jade" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382697490499" ignored="false" />
-    <file path="/main.scss" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382705368884" ignored="false" />
+    <file path="/main.scss" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382707877411" ignored="false" />
     <file path="$PROJECT_DIR$/../FeedZeBirds/ngapp/Gruntfile.js" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382699470930" ignored="false" />
-    <file path="/dashboard.jade" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382703363849" ignored="false" />
+    <file path="/dashboard.jade" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382707396002" ignored="false" />
     <file path="/top_menu.jade" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382701237853" ignored="false" />
     <file path="/settings.jade" changelist="8a18279a-7b41-4654-94fb-265224fc52a3" time="1382705340113" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,15 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/frontend/app/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/frontend/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,19 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/frontend/app/views/home.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dashboard.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/frontend/app/views/dashboard.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="10" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+            <state line="29" column="8" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +77,7 @@
       <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/frontend/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="0" selection-start="3664" selection-end="3664" vertical-scroll-proportion="0.94525546">
+            <state line="182" column="16" selection-start="3462" selection-end="3462" vertical-scroll-proportion="0.6103896">
               <folding />
             </state>
           </provider>
@@ -123,7 +104,16 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/frontend/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="269" column="35" selection-start="6647" selection-end="6647" vertical-scroll-proportion="-27.0">
+            <state line="269" column="35" selection-start="6647" selection-end="6647" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/frontend/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="36" selection-start="396" selection-end="396" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -157,15 +147,15 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/frontend/app/views/partials/top_menu.jade" />
         <option value="$PROJECT_DIR$/lib/frontend/app/views/personal_info.jade" />
-        <option value="$PROJECT_DIR$/lib/frontend/app/views/dashboard.jade" />
         <option value="$PROJECT_DIR$/lib/frontend/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/lib/frontend/app/views/settings.jade" />
+        <option value="$PROJECT_DIR$/lib/frontend/app/views/dashboard.jade" />
         <option value="$PROJECT_DIR$/lib/frontend/app/styles/main.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="659" />
+    <option name="x" value="721" />
     <option name="y" value="22" />
     <option name="width" value="1198" />
     <option name="height" value="995" />
@@ -196,7 +186,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,20 +204,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="crm-2000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-2000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-2000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,81 +287,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-2000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-2000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-2000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-2000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-2000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm-2000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../FeedZeBirds" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: crm-2000">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -611,14 +524,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="659" y="22" width="1198" height="995" extended-state="0" />
-    <editor active="false" />
+    <frame x="721" y="22" width="1198" height="995" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33073497" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3220486" sideWeight="0.66912854" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32725695" sideWeight="0.66926503" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -628,7 +542,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3308715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -695,41 +608,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../FeedZeBirds/ngapp/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="777" selection-end="798" vertical-scroll-proportion="-6.068182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="311" selection-end="311" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
+        <state line="11" column="11" selection-start="311" selection-end="311" vertical-scroll-proportion="-6.875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/frontend/app/bower_components/angular-ui-router/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="8" selection-start="2121" selection-end="2123" vertical-scroll-proportion="-33.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="73" column="8" selection-start="2121" selection-end="2123" vertical-scroll-proportion="-33.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="21" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="61" column="21" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -741,16 +632,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/frontend/.tmp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/frontend/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="35" selection-start="6647" selection-end="6647" vertical-scroll-proportion="-27.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/frontend/app/views/partials/top_menu.jade">
@@ -762,7 +644,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/frontend/app/bower_components/sass-bootstrap-compass/sass/sass-bootstrap.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/frontend/app/views/settings.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/frontend/app/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="28" selection-start="966" selection-end="966" vertical-scroll-proportion="0.42502952">
           <folding />
         </state>
       </provider>
@@ -774,20 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/frontend/app/views/dashboard.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="10" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/frontend/app/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/frontend/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="7" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
@@ -795,16 +682,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/frontend/app/views/settings.jade">
+    <entry file="file://$PROJECT_DIR$/lib/frontend/app/views/dashboard.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+        <state line="29" column="8" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/frontend/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="269" column="35" selection-start="6647" selection-end="6647" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/frontend/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="396" selection-end="396" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/frontend/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="0" selection-start="3664" selection-end="3664" vertical-scroll-proportion="0.94525546">
+        <state line="182" column="16" selection-start="3462" selection-end="3462" vertical-scroll-proportion="0.6103896">
           <folding />
         </state>
       </provider>
