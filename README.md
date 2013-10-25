@@ -61,7 +61,7 @@ application.yml:
 
 #### available resources:
 
-##### members
+##### /api/members
 
     attributes:
         name: required
