@@ -1,49 +1,47 @@
-<div class="left">
-  <h1 class="logo"><a href="#">dashboard</a></h1>
-  <ul class="menu">
-    <li class="users"><a href="#">Users</a></li>
-    <li class="notifications"><a href="#">Notifications</a></li>
-    <li class="settings"><a href="#">Settings</a></li>
-  </ul><a class="logout">Log out</a>
-</div>
-<div class="content">
-  <div class="top-menu">
-    <li class="active"><a href="#">Account info</a></li>
-    <li><a href="#">Add user</a></li>
+<div ng-controller="DashboardController">
+  <div class="left">
+    <h1 class="logo"><a href="#">dashboard</a></h1>
+    <ul class="menu">
+      <li class="users"><a href="#">Users</a></li>
+      <li class="notifications"><a href="#">Notifications</a></li>
+      <li class="settings"><a href="#">Settings</a></li>
+    </ul><a class="logout">Log out</a>
   </div>
-  <div class="main-cont">
-    <h1>List of all users</h1>
-    <p>Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies</p>
-    <table class="users-list">
-      <thead>
-        <tr>
-          <th>Client name</th>
-          <th>Phone number</th>
-          <th>Sent</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>Kallie Roose</th>
-          <th>555 263 273</th>
-          <th>12</th>
-        </tr>
-        <tr>
-          <th>Patty Surprenant</th>
-          <th>555 263 273</th>
-          <th>12</th>
-        </tr>
-        <tr>
-          <th>Kallie Roose</th>
-          <th>555 263 273</th>
-          <th>12</th>
-        </tr>
-        <tr>
-          <th>Patty Surprenant</th>
-          <th>555 263 273</th>
-          <th>12</th>
-        </tr>
-      </tbody>
-    </table>
+  <div ng-controller="MembersController" class="content">
+    <div class="top-menu">
+      <li class="active"><a href="#">Account info</a></li>
+      <li><a href="#">Add user</a></li>
+    </div>
+    <div class="main-cont">
+      <h1>List of all users</h1>
+      <p>Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies</p>
+      <ul class="users-list">
+        <li class="header">
+          <div class="list-item-name">Client name</div>
+          <div class="list-item-phone">Phone number</div>
+          <div class="list-item-sent">Sent</div>
+        </li>
+        <li>
+          <div class="list-item-name">Kallie Roose</div>
+          <div class="list-item-phone">555 263 273</div>
+          <div class="list-item-sent">12</div>
+        </li>
+        <li>
+          <div class="list-item-name">Patty Surprenant</div>
+          <div class="list-item-phone">555 263 273</div>
+          <div class="list-item-sent">12</div>
+        </li>
+        <li>
+          <div class="list-item-name">Kallie Roose</div>
+          <div class="list-item-phone">555 263 273</div>
+          <div class="list-item-sent">12</div>
+        </li>
+        <li>
+          <div class="list-item-name">Patty Surprenant</div>
+          <div class="list-item-phone">555 263 273</div>
+          <div class="list-item-sent">12</div>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
