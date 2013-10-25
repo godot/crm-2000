@@ -1,0 +1,46 @@
+.left
+  h1.logo
+    a(href='#') dashboard
+  ul.menu
+    li.users
+      a(href='#') Users
+    li.notifications
+      a(href='#') Notifications
+    li.settings
+      a(href='#') Settings
+  a.logout Log out
+
+.content
+  .top-menu
+    li.active
+      a(href='#') Account info
+    li
+      a(href='#') Add user
+
+  .main-cont
+    h1 Personal info
+    p Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies
+
+    form.settings-form
+      .form-group
+        label(for='firstname') First Name
+        input(type='text', name='firstname', placeholder='Janko')
+
+        label(for='lastname') Last Name
+        input(type='text', name='lastname', placeholder='Walski')
+
+      .form-group
+        label(for='phone') Phone number
+        input(type='text', name='phone', placeholder='555 125 283')
+
+        label(for='email') E-mail
+        input(type='email', name='email', placeholder='janko.walski@mail.com')
+
+      .form-group
+        label(for='password') Password
+        input(type='password', name='password', placeholder='**************')
+
+        label(for='confirm_password') Password
+        input(type='password', name='confirm_password', placeholder='**************')
+
+      input(type='submit') Save changes
