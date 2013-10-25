@@ -9,7 +9,7 @@ module SMS
           req.params['login'] = login
           req.params['password'] = password
           req.params['msg'] = message
-          req.params['to']  = to.join(',')
+          req.params['to']  = to
         end
 
         response.body
